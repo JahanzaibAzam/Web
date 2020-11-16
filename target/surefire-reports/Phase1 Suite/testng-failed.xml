@@ -19,4 +19,25 @@
       </class> <!-- testCases.TrainingSession -->
     </classes>
   </test> <!-- Login And Logout -->
+  <test name="Login And Logout(failed)">
+    <classes>
+      <class name="testCases.TrainingSession">
+        <methods>
+          <include name="Slider"/>
+          <include name="QuitDriver"/>
+          <include name="JavaScriptAlert"/>
+          <include name="AlertWindow"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testCases.TrainingSession -->
+      <class name="testCases.LoginTests">
+        <methods>
+          <include name="QuitDriver"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- testCases.LoginTests -->
+    </classes>
+  </test> <!-- Login And Logout(failed) -->
 </suite> <!-- Failed suite [Phase1 Suite] -->

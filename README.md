@@ -28,4 +28,9 @@ Jenkins setup:
   
   Reports created under Report folder, sample report provided under report folder
   
-
+Setup of Percy:
+    - Login to percy.io
+    - Create New project on Percy
+    - Integrate Github or Bitbucket with your repository 
+    - Get Percy token and export in local machine 
+    - Execute test cases using "npx percy exec -- mvn test"
